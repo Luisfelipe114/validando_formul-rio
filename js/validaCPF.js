@@ -59,11 +59,5 @@ class ValidaCPF {
     }
 }
 
-const cpfEntrada = new ValidaCPF('705.484.450-51');//cpf inválido
-const cpfValidade = cpfEntrada.validade == false ? 'CPF inválido' : 'CPF válido';
-console.log(cpfValidade);
 
-cpfEntrada.gerarCPFValido();
-console.log(cpfEntrada.cpf);//novo cpf gerado
-const cpfValidade2 = cpfEntrada.validade == false ? 'CPF inválido' : 'CPF válido';
-console.log(cpfValidade2);
+
